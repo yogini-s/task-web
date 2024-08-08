@@ -1,0 +1,178 @@
+.footer {
+  background-color: #032467;
+  color: white;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  /* position: fixed; */
+  /* width: 100%; */
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.footer-column h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #000;
+}
+
+.footer-bottom {
+  padding: 10px 20px 10px 20px;
+  bottom: 0;
+  position: fixed;
+  margin-left: -1rem;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 0 9rem;
+}
+
+.payment-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-icons a {
+  font-size: 24px;
+  color: #333;
+}
+
+.payment-icons a:hover {
+  color: #007bff;
+}
+
+.footer-content1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 9rem;
+}
+
+.email-signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-heading {
+  margin-bottom: 1rem;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.email-input-container {
+  display: flex;
+  gap: 0;
+}
+
+.email-input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 250px;
+  margin-right: 15px;
+  background-color: transparent;
+  color: #FFF;
+}
+
+.subscribe-button-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-flex {
+  display: flex;
+}
+
+.subscribe-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 150px;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  margin: 0 16rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ddd;
+}
+
+.social-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.social-section h3 {
+  margin-bottom: 1rem;
+  font-size: 15px;
+}

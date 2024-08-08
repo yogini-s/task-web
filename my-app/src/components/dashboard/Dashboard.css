@@ -1,0 +1,742 @@
+.dashboard {
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.radio-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.radio-buttons div {
+  display: flex;
+  align-items: center;
+}
+
+.radio-buttons label {
+  margin-left: 5px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #FFF;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-input {
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.dell{
+  margin-top: 30px;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon input {
+  padding-right: 30px;
+}
+
+.input-with-icon .icon {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.find-flight {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  gap: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.two-column-layout {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.column-3 {
+  flex: 1 1 25%;
+  background-color: #FFF;
+}
+
+.column-9 {
+  flex: 3 1 75%;
+}
+
+.show-heading {
+  margin-top: -10px;
+  margin-bottom: -12px;
+  font-size: 15px;
+}
+
+.show-para {
+  font-size: 12px;
+}
+
+.show-filter {
+  border-bottom: 2px dotted #333;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.view-all-button {
+  padding: 6px 12px;
+  background-color: #80aae5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.preferred-heading {
+  font-size: 14px;
+}
+
+.two-column-layout .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side .price {
+  margin-right: 8px;
+  font-size: 14px;
+  color: gray;
+}
+
+.right-side .product-image {
+  width: 60px;
+  height: 30px;
+}
+
+.right-side .product-images {
+  width: 60px;
+  height: 50px;
+}
+
+.flight-title {
+  font-size: 14px;
+  color: #000;
+}
+
+.flight-layout {
+  border-bottom: 2px dotted #000;
+}
+
+
+
+.Stops {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-side h3 {
+  margin: 0;
+}
+
+.right-side .up-icon {
+  padding: 8px 16px;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+}
+
+.button-row .btn {
+  padding: 8px 16px;
+  background-color: #80aae5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.stop-heading {
+  font-size: 14px;
+}
+
+.price-heading {
+  font-size: 14px;
+}
+
+.Price {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.onward {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-side h3 {
+  margin: 0;
+}
+
+.right-side .fas {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.price-range-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.price-range {
+  width: 80%;
+}
+
+.price-values-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-min,
+.price-max {
+  font-size: 12px;
+}
+
+.reset {
+  color: #007bff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Departure {
+  margin-bottom: 20px;
+}
+
+.Arrival {
+  margin-bottom: 20px;
+}
+
+.departure-arrival {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.Baggage {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-side h3 {
+  margin: 0 0 0 0;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.control-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+}
+
+.circle .control-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.circle .control-button:hover {
+  background-color: transparent;
+}
+
+.number {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cabin {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.shooping-icon {
+  margin-right: 10px;
+}
+
+.connections {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-side h3 {
+  margin: 0;
+}
+
+.right-side .fas {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.content-row {
+  display: flex;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-side input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.left-side label {
+  margin: 0;
+}
+
+.connection {
+  font-size: 14px;
+}
+
+.title-checkbox {
+  font-size: 14px;
+}
+
+.Duration {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.stopover {
+  display: flex;
+}
+
+.stopover-h {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.stopover-p {
+  font-size: 14px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+
+.weeks {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 20px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left-side h3 {
+  margin: 0;
+}
+
+.right-side .fas {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.departure-button {
+  padding: 8px 16px;
+  background-color: #80aae5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.departure-button:hover {
+  background-color: #80aae5;
+}
+
+.return-heading {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.week-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.week-day {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #80aae5;
+  color: white;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.days {
+  font-size: 14px;
+}
+
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 23%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #274c73;
+  color: #FFF;
+}
+
+.icon {
+  font-size: 14px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.heading {
+  margin: 0;
+  font-size: 14px;
+}
+
+.para {
+  font-size: 12px;
+  color: #FFF;
+  margin-top: 6px;
+}
+
+.container-right {
+  background-color: white;
+  padding: 20px;
+}
+
+.main-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-heading-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 60px;
+  height: auto;
+}
+
+.heading-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.left-heading,
+.right-heading {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.heart-icon {
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  background-color: rgb(226, 249, 226);
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.date-time {
+  flex: 1;
+}
+
+.day-date {
+  display: block;
+}
+
+.time {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-heading {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.flight-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.flight-icon {
+  font-size: 24px;
+}
+
+.flight-time {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.flight-heading {
+  margin-top: 10px;
+}
+
+.card-footer {
+  align-items: center;
+  margin-left: 20px;
+}
+
+.currency {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Off {
+  color: rgb(9, 241, 9);
+  font-weight: 500;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.book-now {
+  padding: 10px 20px;
+  background-color: #274c73;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: #0056b3;
+}
+
+.additional-headings {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted #000;
+}
+
+.additional-headings h3 {
+  margin: 10px 0;
+}
+
+.cards {
+  display: flex;
+}
+
+.icon-heading-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icon-heading-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.remaining {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+
+.refundable {
+  font-size: 14px;
+  color: rgb(243, 79, 19);
+  font-weight: 500;
+}
+
+.details {
+  font-size: 14px;
+  color: rgb(161, 90, 161);
+  font-weight: 500;
+}
